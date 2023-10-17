@@ -5,6 +5,8 @@ import com.company.jmixpm.entity.Project;
 
 @UiController("Project.edit")
 @UiDescriptor("project-edit.xml")
+
 @EditedEntityContainer("projectDc")
+@PrimaryEditorScreen(Project.class)
 public class ProjectEdit extends StandardEditor<Project> {
 }

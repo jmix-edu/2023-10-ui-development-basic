@@ -12,6 +12,7 @@
             <loader/>
             <collection id="tasksDc" property="tasks"/>
         </instance>
+
     </data>
     <facets>
         <dataLoadCoordinator auto="true"/>
